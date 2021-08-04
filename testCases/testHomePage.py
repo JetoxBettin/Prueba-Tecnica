@@ -7,7 +7,7 @@ from pageObjects.homePage import HomePage
 
 class Test_Home_Page:
 
-    URL = 'https://www.choucairtesting.com/empleos-testing/'       
+    URL = 'https://www.choucairtesting.com/'       
     TITLE = 'empleos testing'
 
     def test_homePage(self, setup):      
